@@ -19,7 +19,7 @@ export class AppComponent {
 
   private initConfig(): void {
     this.payPalConfig = {
-      clientId: 'AdTd8PcQ7usOBbBlQmLIlkFxuioVlr_YmgqNi5ihkdU6JSiFL8pL9VV5k8T7wZHfqf_JJehcbx26pIPV',
+      clientId: 'sb',
       // for creating orders (transactions) on server see
       // https://developer.paypal.com/docs/checkout/reference/server-integration/set-up-transaction/
       createOrderOnServer: (data: any) => fetch('https://localhost:7157/CreatePayment', {
